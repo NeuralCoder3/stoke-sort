@@ -25,6 +25,20 @@ Future experiments will include
 
 #### Detailed Stoke Comparison
 
+**Optimizing run using symbolic tests:** 
+| Instruction Count | Time | Comment |
+| ----------------- | ---- | ------- |
+| 62 | 2.35s | Baseline |
+| 42 | 2.84s | | 
+| 42 | 2.7s | | 
+| 41 | 2.78s | | 
+| 41 | 2.82s | | 
+| 41 | 2.30s | | 
+| 42 | 2.44s | | 
+| 41 | 2.28s | | 
+| 41 | 2.7s | | 
+| 41 | 2.28s | | 
+| 41 | 2.27s | | 
 
 
 ## Approach Details
@@ -59,4 +73,7 @@ time ./a_opt.out 100000000
 Note: The synthesis approach seems to be unsuccessful (at least in a time frame of 30min).
 
 
+## References
 
+- [Stoke](https://github.com/StanfordPL/stoke)
+- [AlphaDev](https://github.com/deepmind/alphadev) (mostly only the result assembly code)

@@ -1,0 +1,35 @@
+Baseline:
+LOC: 62
+Benchmarking ./a.out 100000000
+Average time: 2.39
+
+Running test 1
+Optimizing
+Optimized to 42 lines
+Benchmarking ./sym/output/a_opt_1.out 100000000
+Average time: 2.44
+
+Running test 2
+Optimizing
+Optimized to 41 lines
+Benchmarking ./sym/output/a_opt_2.out 100000000
+Average time: 2.28
+
+Running test 3
+Optimizing
+Optimized to 41 lines
+Benchmarking ./sym/output/a_opt_3.out 100000000
+Average time: 2.70
+
+Running test 4
+Optimizing
+Optimized to 41 lines
+Benchmarking ./sym/output/a_opt_4.out 100000000
+Average time: 2.28
+
+Running test 5
+Optimizing
+Optimized to 41 lines
+Benchmarking ./sym/output/a_opt_5.out 100000000
+Average time: 2.27
+

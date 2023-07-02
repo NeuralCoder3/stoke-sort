@@ -1,0 +1,2 @@
+WARNING: Some cpu flags are not available on this hardware and will be removed:
+WARNING: { syscall rdtscp lahf_lm abm xsaveopt hle rtm }

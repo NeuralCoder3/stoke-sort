@@ -1,0 +1,2953 @@
+Running search (timeout is 100000 iterations):
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (19)     Lowest Known Correct Cost (19)     
+                                                                   
+.sort3:                         .sort3:                            
+movl (%rdi), %edx               movl (%rdi), %edx                  
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+jle .L_4006df                   jle .L_4006df                      
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movl %ecx, (%rdi)               movl %ecx, (%rdi)                  
+movl %eax, 0x4(%rdi)            movl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+cmpl %ecx, %eax                 cmpl %ecx, %eax                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movl %edx, %esi                 movl %edx, %esi                    
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+movl %eax, %edx                 movl %eax, %edx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (18)     Lowest Known Correct Cost (18)     
+                                                                   
+.sort3:                         .sort3:                            
+movl (%rdi), %edx               movl (%rdi), %edx                  
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+jle .L_4006df                   jle .L_4006df                      
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movl %ecx, (%rdi)               movl %ecx, (%rdi)                  
+movl %eax, 0x4(%rdi)            movl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+cmpl %ecx, %eax                 cmpl %ecx, %eax                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movl %edx, %r11d                movl %edx, %r11d                   
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+movl %eax, %edx                 movl %eax, %edx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (17)     Lowest Known Correct Cost (17)     
+                                                                   
+.sort3:                         .sort3:                            
+movl (%rdi), %edx               movl (%rdi), %edx                  
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+jle .L_4006df                   jle .L_4006df                      
+cmpl %edx, %edi                 cmpl %edx, %edi                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movl %eax, 0x4(%rdi)            movl %eax, 0x4(%rdi)               
+movl %ecx, (%rdi)               movl %ecx, (%rdi)                  
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+cmovgl %eax, %r11d              cmovgl %eax, %r11d                 
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+cmpl %ecx, %esi                 cmpl %ecx, %esi                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+movl %eax, %edx                 movl %eax, %edx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (16)     Lowest Known Correct Cost (16)     
+                                                                   
+.sort3:                         .sort3:                            
+movl (%rdi), %edx               movl (%rdi), %edx                  
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+jle .L_4006df                   jle .L_4006df                      
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movl %eax, 0x4(%rdi)            movl %eax, 0x4(%rdi)               
+movl %ecx, (%rdi)               movl %ecx, (%rdi)                  
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+movl %eax, %edx                 movl %eax, %edx                    
+cmovngel 0x8(%rdi), %ecx        cmovngel 0x8(%rdi), %ecx           
+cmpl %ecx, %esi                 cmpl %ecx, %esi                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (15)     Lowest Known Correct Cost (15)     
+                                                                   
+.sort3:                         .sort3:                            
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+movl (%rdi), %edx               movl (%rdi), %edx                  
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+movq %rax, (%rdi)               movq %rax, (%rdi)                  
+addl %edx, 0x4(%rdi)            addl %edx, 0x4(%rdi)               
+jle .L_4006df                   jle .L_4006df                      
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+orl %eax, 0x4(%rdi)             orl %eax, 0x4(%rdi)                
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+pmovzxdq 0x4(%rdi), %xmm10      pmovzxdq 0x4(%rdi), %xmm10         
+addb %dl, %dil                  addb %dl, %dil                     
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+cmovnaeq %rax, %rdx             cmovnaeq %rax, %rdx                
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (14)     Lowest Known Correct Cost (14)     
+                                                                   
+.sort3:                         .sort3:                            
+movl (%rdi), %edx               movl (%rdi), %edx                  
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+movq %rax, (%rdi)               movq %rax, (%rdi)                  
+addl %edx, 0x4(%rdi)            addl %edx, 0x4(%rdi)               
+jle .L_4006df                   jle .L_4006df                      
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+orl %eax, 0x4(%rdi)             orl %eax, 0x4(%rdi)                
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+addb %dl, %dil                  addb %dl, %dil                     
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+cmovnaeq %rax, %rdx             cmovnaeq %rax, %rdx                
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    10000
+Elapsed Time:                  0.0667159s
+Iterations/s:                  149889
+
+Starting cost:                 20
+Lowest cost:                   14
+Lowest correct cost:           14
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     15.1%        1.67%         0.06%        
+Opcode          13.5%        9.05%         6.16%        
+OpcodeWidth     14.69%       5%            2.57%        
+Operand         14.65%       3.41%         1.03%        
+Local Swap      14.22%       2.02%         1.25%        
+Global Swap     13.82%       5.49%         2.46%        
+Rotate          14.02%       6.57%         3.31%        
+                                                        
+Total           100%         33.21%        16.84%       
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (13)     Lowest Known Correct Cost (13)     
+                                                                   
+.sort3:                         .sort3:                            
+movq (%rdi), %rdx               movq (%rdi), %rdx                  
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+movq %rax, (%rdi)               movq %rax, (%rdi)                  
+xorl %edx, 0x4(%rdi)            xorl %edx, 0x4(%rdi)               
+jle .L_4006df                   jle .L_4006df                      
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+subl %edx, %ecx                 subl %edx, %ecx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+xorl %eax, 0x4(%rdi)            xorl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+addb %dl, %sil                  addb %dl, %sil                     
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+movl %eax, 0x8(%rdi)            movl %eax, 0x8(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    20000
+Elapsed Time:                  0.13148s
+Iterations/s:                  152114
+
+Starting cost:                 20
+Lowest cost:                   13
+Lowest correct cost:           13
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.87%       1.805%        0.11%        
+Opcode          13.62%       9.09%         6.455%       
+OpcodeWidth     14.45%       5.53%         3.06%        
+Operand         14.65%       3.285%        1.05%        
+Local Swap      14.2%        1.79%         1.02%        
+Global Swap     14.155%      5.45%         2.77%        
+Rotate          14.055%      6.465%        3.315%       
+                                                        
+Total           100%         33.415%       17.78%       
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (12)     Lowest Known Correct Cost (12)     
+                                                                   
+.sort3:                         .sort3:                            
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+movq (%rdi), %rdx               movq (%rdi), %rdx                  
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+cmovnzl 0x8(%rdi), %ecx         cmovnzl 0x8(%rdi), %ecx            
+jle .L_4006d8                   jle .L_4006d8                      
+movq %rax, (%rdi)               movq %rax, (%rdi)                  
+orl %edx, 0x4(%rdi)             orl %edx, 0x4(%rdi)                
+jle .L_4006df                   jle .L_4006df                      
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+xorq %rax, 0x4(%rdi)            xorq %rax, 0x4(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+xorb %ch, %dh                   xorb %ch, %dh                      
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+xorl %eax, 0x8(%rdi)            xorl %eax, 0x8(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    30000
+Elapsed Time:                  0.193445s
+Iterations/s:                  155083
+
+Starting cost:                 20
+Lowest cost:                   12
+Lowest correct cost:           12
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.7633%     1.59%         0.0833333%     
+Opcode          13.9033%     9.33333%      6.85333%       
+OpcodeWidth     14.3833%     5.74333%      3.34667%       
+Operand         14.6167%     3.13333%      1.03667%       
+Local Swap      13.9867%     1.6%          0.833333%      
+Global Swap     14.13%       5.48667%      2.92%          
+Rotate          14.2167%     6.46667%      3.42%          
+                                                          
+Total           100%         33.3533%      18.4933%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    40000
+Elapsed Time:                  0.255911s
+Iterations/s:                  156304
+
+Starting cost:                 20
+Lowest cost:                   12
+Lowest correct cost:           12
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.6225%     1.5075%       0.065%       
+Opcode          14.065%      9.5425%       7.1125%      
+OpcodeWidth     14.4275%     5.9075%       3.4775%      
+Operand         14.4775%     2.99%         0.9725%      
+Local Swap      14.105%      1.5775%       0.78%        
+Global Swap     14.225%      5.545%        3.0475%      
+Rotate          14.0775%     6.395%        3.4325%      
+                                                        
+Total           100%         33.465%       18.8875%     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    50000
+Elapsed Time:                  0.320729s
+Iterations/s:                  155895
+
+Starting cost:                 20
+Lowest cost:                   12
+Lowest correct cost:           12
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.498%      1.518%        0.062%       
+Opcode          14.126%      9.542%        7.144%       
+OpcodeWidth     14.488%      6.03%         3.582%       
+Operand         14.422%      2.948%        0.962%       
+Local Swap      14.066%      1.536%        0.754%       
+Global Swap     14.262%      5.512%        3.096%       
+Rotate          14.138%      6.406%        3.464%       
+                                                        
+Total           100%         33.492%       19.064%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    60000
+Elapsed Time:                  0.385896s
+Iterations/s:                  155482
+
+Starting cost:                 20
+Lowest cost:                   12
+Lowest correct cost:           12
+
+Move Type       Proposed     Succeeded     Accepted      
+                                                         
+Add Nops        0%           0%            0%            
+Delete          0%           0%            0%            
+Instruction     14.53%       1.48667%      0.065%        
+Opcode          14.1783%     9.605%        7.23333%      
+OpcodeWidth     14.3833%     6.055%        3.68833%      
+Operand         14.425%      2.89333%      0.948333%     
+Local Swap      14.1183%     1.55833%      0.775%        
+Global Swap     14.2483%     5.50333%      3.12333%      
+Rotate          14.1167%     6.40667%      3.51%         
+                                                         
+Total           100%         33.5083%      19.3433%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    70000
+Elapsed Time:                  0.45164s
+Iterations/s:                  154991
+
+Starting cost:                 20
+Lowest cost:                   12
+Lowest correct cost:           12
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.3643%     1.45%         0.0585714%     
+Opcode          14.1986%     9.61429%      7.27%          
+OpcodeWidth     14.4143%     6.12857%      3.76857%       
+Operand         14.4214%     2.90143%      0.945714%      
+Local Swap      14.0943%     1.54%         0.747143%      
+Global Swap     14.3857%     5.57714%      3.18714%       
+Rotate          14.1214%     6.40857%      3.52286%       
+                                                          
+Total           100%         33.62%        19.5%          
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    80000
+Elapsed Time:                  0.516039s
+Iterations/s:                  155027
+
+Starting cost:                 20
+Lowest cost:                   12
+Lowest correct cost:           12
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.4262%     1.42875%      0.06%        
+Opcode          14.2112%     9.5975%       7.27875%     
+OpcodeWidth     14.3375%     6.17625%      3.81875%     
+Operand         14.3625%     2.8425%       0.91375%     
+Local Swap      14.1775%     1.57375%      0.755%       
+Global Swap     14.3413%     5.58625%      3.22%        
+Rotate          14.1438%     6.45%         3.55875%     
+                                                        
+Total           100%         33.655%       19.605%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    90000
+Elapsed Time:                  0.580321s
+Iterations/s:                  155087
+
+Starting cost:                 20
+Lowest cost:                   12
+Lowest correct cost:           12
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.3878%     1.41%         0.0588889%     
+Opcode          14.2767%     9.63889%      7.31889%       
+OpcodeWidth     14.3344%     6.19889%      3.84333%       
+Operand         14.4111%     2.80556%      0.877778%      
+Local Swap      14.1867%     1.59%         0.778889%      
+Global Swap     14.2489%     5.58889%      3.25%          
+Rotate          14.1544%     6.49444%      3.60889%       
+                                                          
+Total           100%         33.7267%      19.7367%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    100000
+Elapsed Time:                  0.643381s
+Iterations/s:                  155429
+
+Starting cost:                 20
+Lowest cost:                   12
+Lowest correct cost:           12
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.406%      1.402%        0.057%       
+Opcode          14.287%      9.658%        7.357%       
+OpcodeWidth     14.378%      6.268%        3.918%       
+Operand         14.441%      2.782%        0.877%       
+Local Swap      14.172%      1.574%        0.751%       
+Global Swap     14.251%      5.58%         3.298%       
+Rotate          14.065%      6.45%         3.596%       
+                                                        
+Total           100%         33.714%       19.854%      
+
+********************************************************************************
+
+Unable to verify new rewrite...
+
+********************************************************************************
+
+Restarting search using new testcase (counterexample from verifier):
+
+SIGNAL 0 [normal exit]
+
+%rax     b1 2f 39 33 fc 53 87 d3
+%rcx     ac 6c 76 14 82 0b bc 3d
+%rdx     22 d2 cc e5 01 9c 55 dc
+%rbx     5c dd 06 00 3c 6f 5a 27
+%rsp     be ea 42 97 22 21 53 21
+%rbp     b0 b7 dd eb 71 76 a4 ff
+%rsi     18 3c a8 2e 14 ab c2 7c
+%rdi     10 00 00 00 00 00 00 00
+%r8      a1 b3 73 f5 1a 10 9a 22
+%r9      9c 2a cd 4c 14 fe 4d 70
+%r10     41 18 f6 b5 ab ba c4 60
+%r11     d4 65 75 b4 4b 7c a4 4d
+%r12     00 c7 44 1b 97 ca ad f7
+%r13     4b b5 b8 5a f9 a0 63 b4
+%r14     d5 aa 50 df 24 5e b0 d4
+%r15     ec cf 30 7e 6e 44 dc cb
+
+%ymm0    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm1    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm2    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm3    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm4    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm5    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm6    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm7    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm8    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm9    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm10   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm11   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm12   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm13   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm14   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm15   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+%cf      0 
+%1       1 
+%pf      0 
+%0       0 
+%af      0 
+%0       0 
+%zf      0 
+%sf      0 
+%tf      0 
+%if      1 
+%df      0 
+%of      0 
+%iopl[0] 0 
+%iopl[1] 0 
+%nt      0 
+%0       0 
+%rf      0 
+%vm      0 
+%ac      0 
+%vif     0 
+%vip     0 
+%id      0 
+
+[ 00000007 00000000 - 00000007 00000000 ]
+[ 0 valid rows shown ]
+
+[ 10000000 00000010 - 10000000 00000000 ]
+[ 2 valid rows shown ]
+
+10000000 00000008   . . . . v v v v   00 00 00 00 92 ea 4b 27 
+10000000 00000000   v v v v v v v v   42 c8 9c 77 d4 04 55 76 
+
+[ 00000000 00000000 - 00000000 00000000 ]
+[ 0 valid rows shown ]
+
+0 more segment(s)
+
+
+Running search (timeout is 100000 iterations):
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (19)     Lowest Known Correct Cost (19)     
+                                                                   
+.sort3:                         .sort3:                            
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+movl (%rdi), %edx               movl (%rdi), %edx                  
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+movq %rdx, %rsi                 movq %rdx, %rsi                    
+jle .L_4006d8                   jle .L_4006d8                      
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+jle .L_4006df                   jle .L_4006df                      
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+cmpl %edx, %edi                 cmpl %edx, %edi                    
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+movl %eax, 0x4(%rdi)            movl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+movl %eax, %edx                 movl %eax, %edx                    
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+cmpl %ecx, %eax                 cmpl %ecx, %eax                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+cmpl %esi, %ecx                 cmpl %esi, %ecx                    
+cmovpeq %rsi, %rax              cmovpeq %rsi, %rax                 
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (18)     Lowest Known Correct Cost (18)     
+                                                                   
+.sort3:                         .sort3:                            
+movq 0x4(%rdi), %rax            movq 0x4(%rdi), %rax               
+movl (%rdi), %edx               movl (%rdi), %edx                  
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+movq %rdx, %rsi                 movq %rdx, %rsi                    
+jle .L_4006d8                   jle .L_4006d8                      
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+jle .L_4006df                   jle .L_4006df                      
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+cmpl %edx, %eax                 cmpl %edx, %eax                    
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+addl %eax, 0x4(%rdi)            addl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+cmpl %ecx, %edi                 cmpl %ecx, %edi                    
+movq %rax, %rdx                 movq %rax, %rdx                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+sbbq $0xfffffffc, %rsp          sbbq $0xfffffffc, %rsp             
+cmovlq %rsi, %rax               cmovlq %rsi, %rax                  
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (17)     Lowest Known Correct Cost (17)     
+                                                                   
+.sort3:                         .sort3:                            
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+movq (%rdi), %rdx               movq (%rdi), %rdx                  
+movq %rdx, %rsi                 movq %rdx, %rsi                    
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+movq %rax, (%rdi)               movq %rax, (%rdi)                  
+addl %esi, 0x4(%rdi)            addl %esi, 0x4(%rdi)               
+jle .L_4006df                   jle .L_4006df                      
+movl %esi, 0x8(%rdi)            movl %esi, 0x8(%rdi)               
+cmpb %dh, %al                   cmpb %dh, %al                      
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+addl %eax, 0x4(%rdi)            addl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+cmpl %ecx, %eax                 cmpl %ecx, %eax                    
+cmovnlq %rax, %rdx              cmovnlq %rax, %rdx                 
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+addb $0x40, %ah                 addb $0x40, %ah                    
+cmovngq %rsi, %rax              cmovngq %rsi, %rax                 
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    10000
+Elapsed Time:                  0.0693567s
+Iterations/s:                  144182
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.02%       1.88%         0.06%        
+Opcode          14.08%       9.01%         5.68%        
+OpcodeWidth     14.41%       5.21%         2.35%        
+Operand         14.08%       3.99%         1.37%        
+Local Swap      15.11%       2.15%         1.31%        
+Global Swap     13.56%       5.06%         1.89%        
+Rotate          14.74%       6.51%         2.56%        
+                                                        
+Total           100%         33.81%        15.22%       
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (16)     Lowest Known Correct Cost (16)     
+                                                                   
+.sort3:                         .sort3:                            
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+movl (%rdi), %edx               movl (%rdi), %edx                  
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+movl %edx, %esi                 movl %edx, %esi                    
+cmovnel 0x8(%rdi), %ecx         cmovnel 0x8(%rdi), %ecx            
+jle .L_4006d8                   jle .L_4006d8                      
+movq %rax, (%rdi)               movq %rax, (%rdi)                  
+orl %esi, 0x4(%rdi)             orl %esi, 0x4(%rdi)                
+jle .L_4006df                   jle .L_4006df                      
+addb %al, %dl                   addb %al, %dl                      
+movl %esi, 0x8(%rdi)            movl %esi, 0x8(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+addq %rax, 0x4(%rdi)            addq %rax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+xchgq %rax, %rdx                xchgq %rax, %rdx                   
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+subq $0x40, %rsp                subq $0x40, %rsp                   
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    20000
+Elapsed Time:                  0.140988s
+Iterations/s:                  141856
+
+Starting cost:                 20
+Lowest cost:                   16
+Lowest correct cost:           16
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.145%      1.77%         0.06%        
+Opcode          13.905%      9.04%         5.88%        
+OpcodeWidth     14.385%      5.58%         2.785%       
+Operand         14.035%      3.965%        1.29%        
+Local Swap      14.855%      2.155%        1.255%       
+Global Swap     14.005%      5.405%        2.105%       
+Rotate          14.67%       6.56%         2.67%        
+                                                        
+Total           100%         34.475%       16.045%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    30000
+Elapsed Time:                  0.211149s
+Iterations/s:                  142080
+
+Starting cost:                 20
+Lowest cost:                   16
+Lowest correct cost:           16
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.1567%     1.71667%      0.0566667%     
+Opcode          14.03%       9.29667%      6.11667%       
+OpcodeWidth     14.1867%     5.65%         2.91667%       
+Operand         14.13%       3.91333%      1.28%          
+Local Swap      14.67%       1.99667%      1.13667%       
+Global Swap     14.27%       5.42333%      2.21333%       
+Rotate          14.5567%     6.48333%      2.72%          
+                                                          
+Total           100%         34.48%        16.44%         
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (15)     Lowest Known Correct Cost (15)     
+                                                                   
+.sort3:                         .sort3:                            
+movq (%rdi), %rdx               movq (%rdi), %rdx                  
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+jle .L_4006d8                   jle .L_4006d8                      
+movq %rax, (%rdi)               movq %rax, (%rdi)                  
+xorl %edx, 0x4(%rdi)            xorl %edx, 0x4(%rdi)               
+jle .L_4006df                   jle .L_4006df                      
+xorb %al, %dil                  xorb %al, %dil                     
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movl %eax, 0x4(%rdi)            movl %eax, 0x4(%rdi)               
+movl %ecx, (%rdi)               movl %ecx, (%rdi)                  
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+cmpl %ecx, %edi                 cmpl %ecx, %edi                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+adcq $0x8, %rsp                 adcq $0x8, %rsp                    
+xchgl %eax, %edx                xchgl %eax, %edx                   
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    40000
+Elapsed Time:                  0.279784s
+Iterations/s:                  142967
+
+Starting cost:                 20
+Lowest cost:                   15
+Lowest correct cost:           15
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.2075%     1.6525%       0.055%       
+Opcode          13.95%       9.285%        6.18%        
+OpcodeWidth     14.165%      5.6525%       2.9775%      
+Operand         14.22%       3.9225%       1.2925%      
+Local Swap      14.7275%     1.9475%       1.1%         
+Global Swap     14.2275%     5.4225%       2.2525%      
+Rotate          14.5025%     6.435%        2.7625%      
+                                                        
+Total           100%         34.3175%      16.62%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    50000
+Elapsed Time:                  0.350913s
+Iterations/s:                  142486
+
+Starting cost:                 20
+Lowest cost:                   15
+Lowest correct cost:           15
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.116%      1.666%        0.054%       
+Opcode          13.972%      9.392%        6.328%       
+OpcodeWidth     14.306%      5.822%        3.112%       
+Operand         14.166%      3.766%        1.216%       
+Local Swap      14.626%      1.896%        1.098%       
+Global Swap     14.236%      5.442%        2.32%        
+Rotate          14.578%      6.478%        2.812%       
+                                                        
+Total           100%         34.462%       16.94%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    60000
+Elapsed Time:                  0.422576s
+Iterations/s:                  141986
+
+Starting cost:                 20
+Lowest cost:                   15
+Lowest correct cost:           15
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.12%       1.65%         0.0566667%     
+Opcode          14.05%       9.45333%      6.39167%       
+OpcodeWidth     14.395%      5.90667%      3.18667%       
+Operand         14.2283%     3.76667%      1.235%         
+Local Swap      14.5467%     1.93833%      1.08833%       
+Global Swap     14.1767%     5.47333%      2.33833%       
+Rotate          14.4833%     6.50167%      2.825%         
+                                                          
+Total           100%         34.69%        17.1217%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    70000
+Elapsed Time:                  0.494743s
+Iterations/s:                  141488
+
+Starting cost:                 20
+Lowest cost:                   15
+Lowest correct cost:           15
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.1386%     1.65143%      0.0614286%     
+Opcode          14.0957%     9.49429%      6.47143%       
+OpcodeWidth     14.3743%     5.94714%      3.26286%       
+Operand         14.2343%     3.75%         1.25%          
+Local Swap      14.5771%     1.99714%      1.11857%       
+Global Swap     14.1257%     5.45286%      2.32%          
+Rotate          14.4543%     6.54%         2.81857%       
+                                                          
+Total           100%         34.8329%      17.3029%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    80000
+Elapsed Time:                  0.56924s
+Iterations/s:                  140538
+
+Starting cost:                 20
+Lowest cost:                   15
+Lowest correct cost:           15
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.14%       1.66125%      0.06%        
+Opcode          14.1188%     9.5825%       6.53375%     
+OpcodeWidth     14.4325%     6.015%        3.30375%     
+Operand         14.1862%     3.7375%       1.28125%     
+Local Swap      14.5475%     2.0075%       1.07625%     
+Global Swap     14.1275%     5.47875%      2.3175%      
+Rotate          14.4475%     6.49125%      2.80875%     
+                                                        
+Total           100%         34.9738%      17.3813%     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    90000
+Elapsed Time:                  0.645639s
+Iterations/s:                  139397
+
+Starting cost:                 20
+Lowest cost:                   15
+Lowest correct cost:           15
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.15%       1.63333%      0.0577778%     
+Opcode          14.1467%     9.61222%      6.56444%       
+OpcodeWidth     14.5133%     6.10667%      3.37667%       
+Operand         14.1667%     3.72556%      1.28556%       
+Local Swap      14.4978%     1.97222%      1.03222%       
+Global Swap     14.1111%     5.53667%      2.34222%       
+Rotate          14.4144%     6.53444%      2.8%           
+                                                          
+Total           100%         35.1211%      17.4589%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    100000
+Elapsed Time:                  0.720157s
+Iterations/s:                  138859
+
+Starting cost:                 20
+Lowest cost:                   15
+Lowest correct cost:           15
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.195%      1.635%        0.057%       
+Opcode          14.164%      9.608%        6.552%       
+OpcodeWidth     14.462%      6.162%        3.437%       
+Operand         14.128%      3.689%        1.274%       
+Local Swap      14.484%      1.945%        1.014%       
+Global Swap     14.122%      5.537%        2.363%       
+Rotate          14.445%      6.56%         2.812%       
+                                                        
+Total           100%         35.136%       17.509%      
+
+********************************************************************************
+
+Unable to verify new rewrite...
+
+********************************************************************************
+
+Restarting search using new testcase (counterexample from verifier):
+
+SIGNAL 0 [normal exit]
+
+%rax     b7 75 42 b7 ea b4 61 6d
+%rcx     83 b4 f8 30 67 a0 c3 0b
+%rdx     a9 74 21 94 c5 12 be 7b
+%rbx     a0 06 04 ae df 74 83 a0
+%rsp     14 cb 32 be 0b 43 72 13
+%rbp     17 f6 44 cb ed b1 2c c8
+%rsi     af 57 af 0f 1f aa eb 89
+%rdi     10 00 00 00 00 00 00 00
+%r8      d4 fa d0 0d 13 f3 85 43
+%r9      5c d7 13 6a d4 61 52 6b
+%r10     97 23 e1 c7 37 44 16 e2
+%r11     c8 93 4c 97 f6 17 df 70
+%r12     ca 1f be aa 18 17 b7 66
+%r13     5f 72 65 74 6a 08 ea 96
+%r14     42 0a c5 83 f5 42 76 00
+%r15     85 1f b1 91 6e a0 1e f0
+
+%ymm0    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm1    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm2    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm3    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm4    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm5    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm6    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm7    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm8    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm9    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm10   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm11   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm12   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm13   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm14   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm15   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+%cf      0 
+%1       1 
+%pf      0 
+%0       0 
+%af      0 
+%0       0 
+%zf      0 
+%sf      0 
+%tf      0 
+%if      1 
+%df      0 
+%of      0 
+%iopl[0] 0 
+%iopl[1] 0 
+%nt      0 
+%0       0 
+%rf      0 
+%vm      0 
+%ac      0 
+%vif     0 
+%vip     0 
+%id      0 
+
+[ 00000007 00000000 - 00000007 00000000 ]
+[ 0 valid rows shown ]
+
+[ 10000000 00000010 - 10000000 00000000 ]
+[ 2 valid rows shown ]
+
+10000000 00000008   . . . . v v v v   00 00 00 00 b0 5c ff bb 
+10000000 00000000   v v v v v v v v   94 8f 71 8d b9 95 c2 81 
+
+[ 00000000 00000000 - 00000000 00000000 ]
+[ 0 valid rows shown ]
+
+0 more segment(s)
+
+
+Running search (timeout is 100000 iterations):
+
+Statistics Update: 
+
+Iterations:                    10000
+Elapsed Time:                  0.0765403s
+Iterations/s:                  130650
+
+Starting cost:                 20
+Lowest cost:                   20
+Lowest correct cost:           20
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.57%       1.62%         0.07%        
+Opcode          14.73%       9.54%         4.78%        
+OpcodeWidth     14.29%       5.1%          1.93%        
+Operand         14.03%       4.76%         1.31%        
+Local Swap      14.38%       2.94%         1.93%        
+Global Swap     13.81%       5.17%         1.48%        
+Rotate          14.19%       6.52%         2.55%        
+                                                        
+Total           100%         35.65%        14.05%       
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (19)     Lowest Known Correct Cost (19)     
+                                                                   
+.sort3:                         .sort3:                            
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+movq (%rdi), %rdx               movq (%rdi), %rdx                  
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+cmovnzl 0x8(%rdi), %ecx         cmovnzl 0x8(%rdi), %ecx            
+movl %edx, %esi                 movl %edx, %esi                    
+jle .L_4006d8                   jle .L_4006d8                      
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+sbbl %ecx, %esi                 sbbl %ecx, %esi                    
+jle .L_4006df                   jle .L_4006df                      
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+adcq %rsi, %rbp                 adcq %rsi, %rbp                    
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+xorl %eax, 0x4(%rdi)            xorl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+xchgq %rax, %rdx                xchgq %rax, %rdx                   
+andw %cx, %sp                   andw %cx, %sp                      
+wait                            wait                               
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+xorl %edx, 0x8(%rdi)            xorl %edx, 0x8(%rdi)               
+cmpq %rax, %rcx                 cmpq %rax, %rcx                    
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (18)     Lowest Known Correct Cost (18)     
+                                                                   
+.sort3:                         .sort3:                            
+movq (%rdi), %rdx               movq (%rdi), %rdx                  
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+cmovnel 0x8(%rdi), %ecx         cmovnel 0x8(%rdi), %ecx            
+cmovael %edx, %esi              cmovael %edx, %esi                 
+jle .L_4006d8                   jle .L_4006d8                      
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+subl %ecx, %esi                 subl %ecx, %esi                    
+jle .L_4006df                   jle .L_4006df                      
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+xorq %rax, %rbp                 xorq %rax, %rbp                    
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+xorl %eax, 0x4(%rdi)            xorl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+xchgq %rax, %rdx                xchgq %rax, %rdx                   
+addw %cx, %sp                   addw %cx, %sp                      
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+xorl %edx, 0x8(%rdi)            xorl %edx, 0x8(%rdi)               
+cmpq %rax, %rdi                 cmpq %rax, %rdi                    
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    20000
+Elapsed Time:                  0.150447s
+Iterations/s:                  132938
+
+Starting cost:                 20
+Lowest cost:                   18
+Lowest correct cost:           18
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.525%      1.69%         0.055%       
+Opcode          14.555%      9.765%        5.475%       
+OpcodeWidth     14.275%      5.375%        2.255%       
+Operand         13.805%      4.19%         1.195%       
+Local Swap      14.66%       2.735%        1.755%       
+Global Swap     13.83%       5.245%        1.635%       
+Rotate          14.35%       6.475%        2.355%       
+                                                        
+Total           100%         35.475%       14.725%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    30000
+Elapsed Time:                  0.228783s
+Iterations/s:                  131129
+
+Starting cost:                 20
+Lowest cost:                   18
+Lowest correct cost:           18
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.4833%     1.68667%      0.05%        
+Opcode          14.2767%     9.65333%      5.52333%     
+OpcodeWidth     14.3333%     5.54%         2.43333%     
+Operand         13.9%        4.28667%      1.23333%     
+Local Swap      14.6733%     2.65333%      1.73333%     
+Global Swap     14.04%       5.38667%      1.71%        
+Rotate          14.2933%     6.42333%      2.28%        
+                                                        
+Total           100%         35.63%        14.9633%     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    40000
+Elapsed Time:                  0.309935s
+Iterations/s:                  129059
+
+Starting cost:                 20
+Lowest cost:                   18
+Lowest correct cost:           18
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.3725%     1.7675%       0.055%       
+Opcode          14.28%       9.6975%       5.555%       
+OpcodeWidth     14.46%       5.7725%       2.6%         
+Operand         14.0025%     4.375%        1.35%        
+Local Swap      14.5625%     2.6425%       1.6675%      
+Global Swap     14.0075%     5.34%         1.6575%      
+Rotate          14.315%      6.485%        2.22%        
+                                                        
+Total           100%         36.08%        15.105%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    50000
+Elapsed Time:                  0.390256s
+Iterations/s:                  128121
+
+Starting cost:                 20
+Lowest cost:                   18
+Lowest correct cost:           18
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.248%      1.842%        0.058%       
+Opcode          14.314%      9.786%        5.622%       
+OpcodeWidth     14.44%       5.838%        2.658%       
+Operand         14.084%      4.422%        1.37%        
+Local Swap      14.478%      2.692%        1.516%       
+Global Swap     14.116%      5.366%        1.642%       
+Rotate          14.32%       6.43%         2.148%       
+                                                        
+Total           100%         36.376%       15.014%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    60000
+Elapsed Time:                  0.472537s
+Iterations/s:                  126974
+
+Starting cost:                 20
+Lowest cost:                   18
+Lowest correct cost:           18
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.2%        1.83833%      0.0583333%     
+Opcode          14.4167%     9.94167%      5.66333%       
+OpcodeWidth     14.42%       5.99333%      2.80167%       
+Operand         14.0783%     4.45667%      1.39833%       
+Local Swap      14.4333%     2.70333%      1.45667%       
+Global Swap     14.1367%     5.35333%      1.65667%       
+Rotate          14.315%      6.42167%      2.12167%       
+                                                          
+Total           100%         36.7083%      15.1567%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    70000
+Elapsed Time:                  0.551374s
+Iterations/s:                  126956
+
+Starting cost:                 20
+Lowest cost:                   18
+Lowest correct cost:           18
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.2886%     1.88714%      0.0642857%     
+Opcode          14.3343%     9.86857%      5.66857%       
+OpcodeWidth     14.4371%     6.09714%      2.86714%       
+Operand         14.1571%     4.46429%      1.38143%       
+Local Swap      14.3929%     2.67714%      1.35857%       
+Global Swap     14.1329%     5.31286%      1.65857%       
+Rotate          14.2571%     6.34857%      2.11%          
+                                                          
+Total           100%         36.6557%      15.1086%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    80000
+Elapsed Time:                  0.636386s
+Iterations/s:                  125710
+
+Starting cost:                 20
+Lowest cost:                   18
+Lowest correct cost:           18
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.28%       1.8825%       0.06875%     
+Opcode          14.4012%     9.9125%       5.65625%     
+OpcodeWidth     14.355%      6.18375%      2.935%       
+Operand         14.15%       4.50375%      1.41%        
+Local Swap      14.3537%     2.6625%       1.3%         
+Global Swap     14.1962%     5.26875%      1.64125%     
+Rotate          14.2637%     6.32875%      2.0925%      
+                                                        
+Total           100%         36.7425%      15.1037%     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    90000
+Elapsed Time:                  0.719344s
+Iterations/s:                  125114
+
+Starting cost:                 20
+Lowest cost:                   18
+Lowest correct cost:           18
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.2133%     1.85444%      0.0733333%     
+Opcode          14.3644%     9.88778%      5.67111%       
+OpcodeWidth     14.3456%     6.26778%      3.01778%       
+Operand         14.2078%     4.53556%      1.44889%       
+Local Swap      14.3722%     2.65667%      1.22667%       
+Global Swap     14.1867%     5.19556%      1.58556%       
+Rotate          14.31%       6.30778%      2.03889%       
+                                                          
+Total           100%         36.7056%      15.0622%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    100000
+Elapsed Time:                  0.804101s
+Iterations/s:                  124362
+
+Starting cost:                 20
+Lowest cost:                   18
+Lowest correct cost:           18
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.159%      1.888%        0.076%       
+Opcode          14.325%      9.827%        5.627%       
+OpcodeWidth     14.376%      6.366%        3.126%       
+Operand         14.234%      4.577%        1.476%       
+Local Swap      14.392%      2.685%        1.248%       
+Global Swap     14.202%      5.195%        1.562%       
+Rotate          14.312%      6.269%        2.014%       
+                                                        
+Total           100%         36.807%       15.129%      
+
+********************************************************************************
+
+Unable to verify new rewrite...
+
+********************************************************************************
+
+Restarting search using new testcase (counterexample from verifier):
+
+SIGNAL 0 [normal exit]
+
+%rax     df dd 37 7c 00 46 fb ff
+%rcx     cb 38 de 72 22 4b 44 a1
+%rdx     0d 77 d3 18 02 9e 2e e1
+%rbx     72 cb 12 4b 34 ee 6b e3
+%rsp     01 02 6d b0 54 1f 5e 5a
+%rbp     00 4d 59 64 d4 99 49 e0
+%rsi     3b 1c ea b8 f1 c9 9a 1b
+%rdi     10 00 00 00 00 00 00 00
+%r8      63 52 4b 59 80 15 b7 05
+%r9      2d e0 a4 01 f9 00 26 8d
+%r10     a4 f9 22 0b c6 75 17 2d
+%r11     f7 3c 43 b7 da 04 9a 3d
+%r12     c1 1b fd 11 f4 c9 d1 82
+%r13     8b 6f ac 52 27 ae a0 42
+%r14     3d 85 01 80 f1 00 00 c6
+%r15     e5 11 89 b7 8d ae 2f 08
+
+%ymm0    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm1    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm2    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm3    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm4    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm5    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm6    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm7    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm8    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm9    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm10   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm11   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm12   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm13   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm14   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm15   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+%cf      0 
+%1       1 
+%pf      0 
+%0       0 
+%af      0 
+%0       0 
+%zf      0 
+%sf      0 
+%tf      0 
+%if      1 
+%df      0 
+%of      0 
+%iopl[0] 0 
+%iopl[1] 0 
+%nt      0 
+%0       0 
+%rf      0 
+%vm      0 
+%ac      0 
+%vif     0 
+%vip     0 
+%id      0 
+
+[ 00000007 00000000 - 00000007 00000000 ]
+[ 0 valid rows shown ]
+
+[ 10000000 00000010 - 10000000 00000000 ]
+[ 2 valid rows shown ]
+
+10000000 00000008   . . . . v v v v   00 00 00 00 b4 6f e5 28 
+10000000 00000000   v v v v v v v v   9f 80 3e 3c 84 7f e3 70 
+
+[ 00000000 00000000 - 00000000 00000000 ]
+[ 0 valid rows shown ]
+
+0 more segment(s)
+
+
+Running search (timeout is 100000 iterations):
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (19)     Lowest Known Correct Cost (19)     
+                                                                   
+.sort3:                         .sort3:                            
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+movq (%rdi), %rdx               movq (%rdi), %rdx                  
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+jle .L_4006df                   jle .L_4006df                      
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+movl %eax, 0x4(%rdi)            movl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+cmpl %ecx, %eax                 cmpl %ecx, %eax                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+cmovgq %rdx, %rsi               cmovgq %rdx, %rsi                  
+movl %eax, %edx                 movl %eax, %edx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+cmovnel %esi, %eax              cmovnel %esi, %eax                 
+cmpq %rdi, %rcx                 cmpq %rdi, %rcx                    
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (18)     Lowest Known Correct Cost (18)     
+                                                                   
+.sort3:                         .sort3:                            
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+movq (%rdi), %rdx               movq (%rdi), %rdx                  
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+cmovnol 0x8(%rdi), %ecx         cmovnol 0x8(%rdi), %ecx            
+jle .L_4006d8                   jle .L_4006d8                      
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+jle .L_4006df                   jle .L_4006df                      
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+addl %edx, 0x8(%rdi)            addl %edx, 0x8(%rdi)               
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movl %eax, 0x4(%rdi)            movl %eax, 0x4(%rdi)               
+movl %ecx, (%rdi)               movl %ecx, (%rdi)                  
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+xorw %ax, %si                   xorw %ax, %si                      
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movl %eax, 0x8(%rdi)            movl %eax, 0x8(%rdi)               
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+cmovael %edx, %esi              cmovael %edx, %esi                 
+subq %rdi, %rcx                 subq %rdi, %rcx                    
+cmovnal %esi, %eax              cmovnal %esi, %eax                 
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    10000
+Elapsed Time:                  0.0749366s
+Iterations/s:                  133446
+
+Starting cost:                 20
+Lowest cost:                   18
+Lowest correct cost:           18
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     13.93%       1.64%         0.07%        
+Opcode          14.58%       10.25%        5.79%        
+OpcodeWidth     14.39%       5.03%         1.9%         
+Operand         14.38%       4.08%         1.11%        
+Local Swap      14.75%       2.44%         1.42%        
+Global Swap     14.32%       5.55%         1.83%        
+Rotate          13.65%       6.14%         2.04%        
+                                                        
+Total           100%         35.13%        14.16%       
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (17)     Lowest Known Correct Cost (17)     
+                                                                   
+.sort3:                         .sort3:                            
+movl (%rdi), %edx               movl (%rdi), %edx                  
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+cmovnzl 0x8(%rdi), %ecx         cmovnzl 0x8(%rdi), %ecx            
+jle .L_4006d8                   jle .L_4006d8                      
+movq %rax, (%rdi)               movq %rax, (%rdi)                  
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+jle .L_4006df                   jle .L_4006df                      
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movl %ecx, (%rdi)               movl %ecx, (%rdi)                  
+movl %eax, 0x4(%rdi)            movl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+xorw %ax, %si                   xorw %ax, %si                      
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+addl %eax, 0x8(%rdi)            addl %eax, 0x8(%rdi)               
+cmovpq %rdx, %rax               cmovpq %rdx, %rax                  
+subq %rdi, %rcx                 subq %rdi, %rcx                    
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    20000
+Elapsed Time:                  0.149258s
+Iterations/s:                  133996
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     13.96%       1.69%         0.065%       
+Opcode          14.37%       9.915%        5.8%         
+OpcodeWidth     14.33%       5.15%         2.13%        
+Operand         14.6%        4.045%        1.09%        
+Local Swap      14.595%      2.355%        1.335%       
+Global Swap     14.21%       5.22%         1.825%       
+Rotate          13.935%      6.26%         2.185%       
+                                                        
+Total           100%         34.635%       14.43%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    30000
+Elapsed Time:                  0.224936s
+Iterations/s:                  133371
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.1367%     1.69333%      0.05%        
+Opcode          14.59%       10.1233%      6.16667%     
+OpcodeWidth     14.35%       5.33667%      2.37%        
+Operand         14.35%       3.99333%      1.04333%     
+Local Swap      14.36%       2.29333%      1.26%        
+Global Swap     14.14%       5.19%         1.89%        
+Rotate          14.0733%     6.32%         2.24333%     
+                                                        
+Total           100%         34.95%        15.0233%     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    40000
+Elapsed Time:                  0.300486s
+Iterations/s:                  133118
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.2875%     1.71%         0.04%        
+Opcode          14.375%      9.875%        5.935%       
+OpcodeWidth     14.355%      5.36%         2.3575%      
+Operand         14.3425%     3.985%        1.0525%      
+Local Swap      14.4%        2.305%        1.2275%      
+Global Swap     14.1775%     5.23%         1.8625%      
+Rotate          14.0625%     6.4325%       2.23%        
+                                                        
+Total           100%         34.8975%      14.705%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    50000
+Elapsed Time:                  0.378775s
+Iterations/s:                  132005
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.312%      1.754%        0.042%       
+Opcode          14.416%      9.848%        5.884%       
+OpcodeWidth     14.462%      5.392%        2.412%       
+Operand         14.228%      3.988%        1.048%       
+Local Swap      14.416%      2.3%          1.082%       
+Global Swap     14.174%      5.342%        1.852%       
+Rotate          13.992%      6.41%         2.176%       
+                                                        
+Total           100%         35.034%       14.496%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    60000
+Elapsed Time:                  0.461796s
+Iterations/s:                  129927
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.255%      1.86%         0.0666667%     
+Opcode          14.365%      9.795%        5.845%         
+OpcodeWidth     14.385%      5.52167%      2.50833%       
+Operand         14.2733%     4.12%         1.10833%       
+Local Swap      14.5067%     2.36833%      1.02333%       
+Global Swap     14.1417%     5.285%        1.79667%       
+Rotate          14.0733%     6.41833%      2.2%           
+                                                          
+Total           100%         35.3683%      14.5483%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    70000
+Elapsed Time:                  0.545957s
+Iterations/s:                  128215
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.25%       1.98857%      0.0785714%     
+Opcode          14.3714%     9.77571%      5.87143%       
+OpcodeWidth     14.2871%     5.71%         2.70143%       
+Operand         14.3329%     4.18143%      1.15714%       
+Local Swap      14.4757%     2.37571%      1.07286%       
+Global Swap     14.1543%     5.26571%      1.76571%       
+Rotate          14.1286%     6.39857%      2.18429%       
+                                                          
+Total           100%         35.6957%      14.8314%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    80000
+Elapsed Time:                  0.626723s
+Iterations/s:                  127648
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.1925%     2.02625%      0.0775%      
+Opcode          14.3287%     9.73375%      5.90875%     
+OpcodeWidth     14.295%      5.89625%      2.8825%      
+Operand         14.3537%     4.19625%      1.1575%      
+Local Swap      14.4612%     2.3675%       1.07375%     
+Global Swap     14.18%       5.18125%      1.7775%      
+Rotate          14.1888%     6.35%         2.1675%      
+                                                        
+Total           100%         35.7512%      15.045%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    90000
+Elapsed Time:                  0.7072s
+Iterations/s:                  127262
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.1589%     1.99556%      0.0688889%     
+Opcode          14.3267%     9.73556%      5.94111%       
+OpcodeWidth     14.2844%     6.03333%      3.05111%       
+Operand         14.3833%     4.19889%      1.15111%       
+Local Swap      14.4322%     2.35889%      1.07333%       
+Global Swap     14.2122%     5.15222%      1.82556%       
+Rotate          14.2022%     6.36667%      2.17667%       
+                                                          
+Total           100%         35.8411%      15.2878%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    100000
+Elapsed Time:                  0.786162s
+Iterations/s:                  127200
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.163%      1.99%         0.068%       
+Opcode          14.312%      9.756%        5.967%       
+OpcodeWidth     14.244%      6.142%        3.161%       
+Operand         14.369%      4.223%        1.151%       
+Local Swap      14.479%      2.364%        1.129%       
+Global Swap     14.286%      5.116%        1.836%       
+Rotate          14.147%      6.281%        2.169%       
+                                                        
+Total           100%         35.872%       15.481%      
+
+********************************************************************************
+
+Unable to verify new rewrite...
+
+********************************************************************************
+
+Restarting search using new testcase (counterexample from verifier):
+
+SIGNAL 0 [normal exit]
+
+%rax     00 00 00 00 00 00 00 00
+%rcx     00 00 00 00 00 00 00 00
+%rdx     00 00 00 00 00 00 00 00
+%rbx     00 00 00 00 00 00 00 00
+%rsp     00 00 00 00 00 00 00 00
+%rbp     00 00 00 00 00 00 00 00
+%rsi     00 00 00 00 00 00 00 00
+%rdi     00 00 00 00 00 00 00 00
+%r8      00 00 00 00 00 00 00 00
+%r9      00 00 00 00 00 00 00 00
+%r10     00 00 00 00 00 00 00 00
+%r11     00 00 00 00 00 00 00 00
+%r12     00 00 00 00 00 00 00 00
+%r13     00 00 00 00 00 00 00 00
+%r14     00 00 00 00 00 00 00 00
+%r15     00 00 00 00 00 00 00 00
+
+%ymm0    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm1    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm2    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm3    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm4    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm5    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm6    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm7    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm8    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm9    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm10   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm11   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm12   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm13   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm14   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm15   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+%cf      0 
+%1       1 
+%pf      0 
+%0       0 
+%af      0 
+%0       0 
+%zf      0 
+%sf      0 
+%tf      0 
+%if      1 
+%df      0 
+%of      0 
+%iopl[0] 0 
+%iopl[1] 0 
+%nt      0 
+%0       0 
+%rf      0 
+%vm      0 
+%ac      0 
+%vif     0 
+%vip     0 
+%id      0 
+
+[ 00000007 00000000 - 00000007 00000000 ]
+[ 0 valid rows shown ]
+
+[ 00000000 00000010 - 00000000 00000000 ]
+[ 2 valid rows shown ]
+
+00000000 00000008   . . . . v v v v   00 00 00 00 fc 80 00 39 
+00000000 00000000   v v v v v v v v   88 80 00 2d 80 20 00 06 
+
+[ 00000000 00000000 - 00000000 00000000 ]
+[ 0 valid rows shown ]
+
+0 more segment(s)
+
+
+Running search (timeout is 100000 iterations):
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (19)     Lowest Known Correct Cost (19)     
+                                                                   
+.sort3:                         .sort3:                            
+movl (%rdi), %edx               movl (%rdi), %edx                  
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+movq %rax, (%rdi)               movq %rax, (%rdi)                  
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+jle .L_4006df                   jle .L_4006df                      
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movl %ecx, (%rdi)               movl %ecx, (%rdi)                  
+movl %eax, 0x4(%rdi)            movl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+cmovnzl 0x8(%rdi), %ecx         cmovnzl 0x8(%rdi), %ecx            
+cmpl %ecx, %eax                 cmpl %ecx, %eax                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+cmovgeq %rdx, %rsi              cmovgeq %rdx, %rsi                 
+xchgl %eax, %edx                xchgl %eax, %edx                   
+cmpl %esi, %ecx                 cmpl %esi, %ecx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (18)     Lowest Known Correct Cost (18)     
+                                                                   
+.sort3:                         .sort3:                            
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+movq (%rdi), %rdx               movq (%rdi), %rdx                  
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+jle .L_4006df                   jle .L_4006df                      
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+movl %eax, 0x4(%rdi)            movl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+cmpl %ecx, %eax                 cmpl %ecx, %eax                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+cmovnbel %edx, %esi             cmovnbel %edx, %esi                
+xchgl %eax, %edx                xchgl %eax, %edx                   
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+cmpl %esi, %ecx                 cmpl %esi, %ecx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (17)     Lowest Known Correct Cost (17)     
+                                                                   
+.sort3:                         .sort3:                            
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+movq (%rdi), %rdx               movq (%rdi), %rdx                  
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+jle .L_4006df                   jle .L_4006df                      
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+addq %rax, 0x4(%rdi)            addq %rax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+cmpl %ecx, %eax                 cmpl %ecx, %eax                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+xchgl %eax, %edx                xchgl %eax, %edx                   
+orl %edx, 0x8(%rdi)             orl %edx, 0x8(%rdi)                
+xorw %di, %si                   xorw %di, %si                      
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    10000
+Elapsed Time:                  0.0753521s
+Iterations/s:                  132710
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.23%       1.63%         0.02%        
+Opcode          13.87%       9.27%         5.19%        
+OpcodeWidth     15.09%       4.94%         1.72%        
+Operand         13.94%       4.29%         1%           
+Local Swap      14.57%       2.49%         1.74%        
+Global Swap     14.36%       5.48%         2.04%        
+Rotate          13.94%       6.3%          2.52%        
+                                                        
+Total           100%         34.4%         14.23%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    20000
+Elapsed Time:                  0.153364s
+Iterations/s:                  130409
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.375%      1.78%         0.07%        
+Opcode          14.03%       9.415%        5.55%        
+OpcodeWidth     14.76%       5.055%        2.15%        
+Operand         14.37%       4.25%         1.095%       
+Local Swap      14.155%      2.46%         1.7%         
+Global Swap     14.15%       5.355%        2.11%        
+Rotate          14.16%       6.295%        2.55%        
+                                                        
+Total           100%         34.61%        15.225%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    30000
+Elapsed Time:                  0.233159s
+Iterations/s:                  128668
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.4067%     1.69333%      0.0566667%     
+Opcode          14.0767%     9.45333%      5.71667%       
+OpcodeWidth     14.45%       5.18667%      2.39%          
+Operand         14.5367%     4.28667%      1.08667%       
+Local Swap      14.17%       2.44%         1.62667%       
+Global Swap     14.31%       5.35333%      2.10667%       
+Rotate          14.05%       6.24333%      2.43667%       
+                                                          
+Total           100%         34.6567%      15.42%         
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    40000
+Elapsed Time:                  0.313151s
+Iterations/s:                  127734
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.445%      1.7425%       0.0675%      
+Opcode          14.24%       9.4675%       5.8675%      
+OpcodeWidth     14.24%       5.3225%       2.5875%      
+Operand         14.465%      4.2325%       1.115%       
+Local Swap      14.23%       2.41%         1.5725%      
+Global Swap     14.2925%     5.47%         2.15%        
+Rotate          14.0875%     6.3475%       2.4925%      
+                                                        
+Total           100%         34.9925%      15.8525%     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    50000
+Elapsed Time:                  0.39541s
+Iterations/s:                  126451
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.34%       1.782%        0.06%        
+Opcode          14.24%       9.588%        5.946%       
+OpcodeWidth     14.31%       5.612%        2.888%       
+Operand         14.554%      4.206%        1.13%        
+Local Swap      14.244%      2.398%        1.57%        
+Global Swap     14.282%      5.472%        2.116%       
+Rotate          14.03%       6.33%         2.432%       
+                                                        
+Total           100%         35.388%       16.142%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    60000
+Elapsed Time:                  0.478309s
+Iterations/s:                  125442
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.3883%     1.81167%      0.0666667%     
+Opcode          14.2433%     9.645%        5.91833%       
+OpcodeWidth     14.275%      5.69167%      2.95%          
+Operand         14.53%       4.25667%      1.17333%       
+Local Swap      14.2317%     2.39333%      1.59667%       
+Global Swap     14.28%       5.445%        2.09333%       
+Rotate          14.0517%     6.35833%      2.42833%       
+                                                          
+Total           100%         35.6017%      16.2267%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    70000
+Elapsed Time:                  0.566241s
+Iterations/s:                  123622
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.5%        1.94286%      0.0742857%     
+Opcode          14.2171%     9.64286%      5.9%           
+OpcodeWidth     14.1914%     5.73714%      2.98143%       
+Operand         14.5014%     4.29429%      1.23143%       
+Local Swap      14.2414%     2.43571%      1.61286%       
+Global Swap     14.2714%     5.44429%      2.03857%       
+Rotate          14.0771%     6.39%         2.42%          
+                                                          
+Total           100%         35.8871%      16.2586%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    80000
+Elapsed Time:                  0.651405s
+Iterations/s:                  122811
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.4162%     1.9275%       0.0775%      
+Opcode          14.1925%     9.6525%       5.91%        
+OpcodeWidth     14.2263%     5.88875%      3.1425%      
+Operand         14.5412%     4.34%         1.285%       
+Local Swap      14.2725%     2.47%         1.55125%     
+Global Swap     14.2462%     5.47875%      2.02875%     
+Rotate          14.105%      6.40625%      2.40875%     
+                                                        
+Total           100%         36.1638%      16.4037%     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    90000
+Elapsed Time:                  0.743055s
+Iterations/s:                  121122
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.38%       2.03778%      0.0955556%     
+Opcode          14.1589%     9.59889%      5.85667%       
+OpcodeWidth     14.2978%     6.06%         3.27556%       
+Operand         14.5856%     4.46%         1.38667%       
+Local Swap      14.2444%     2.47556%      1.50778%       
+Global Swap     14.1933%     5.38556%      1.96556%       
+Rotate          14.14%       6.36%         2.38444%       
+                                                          
+Total           100%         36.3778%      16.4722%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    100000
+Elapsed Time:                  0.827305s
+Iterations/s:                  120874
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.359%      2.009%        0.091%       
+Opcode          14.192%      9.658%        5.896%       
+OpcodeWidth     14.307%      6.26%         3.426%       
+Operand         14.547%      4.405%        1.381%       
+Local Swap      14.283%      2.482%        1.469%       
+Global Swap     14.164%      5.301%        1.959%       
+Rotate          14.148%      6.316%        2.367%       
+                                                        
+Total           100%         36.431%       16.589%      
+
+********************************************************************************
+
+Unable to verify new rewrite...
+
+********************************************************************************
+
+Restarting search using new testcase (counterexample from verifier):
+
+SIGNAL 0 [normal exit]
+
+%rax     e5 76 5c 71 15 51 a1 1e
+%rcx     46 76 e2 7d 26 6a 16 d5
+%rdx     d5 65 8a d5 2b ab 9e 74
+%rbx     a7 fa f4 47 22 93 1a 29
+%rsp     9f b1 97 be c2 26 da 78
+%rbp     ee c8 ef 46 4a 83 be 63
+%rsi     34 e0 32 f5 28 64 eb cc
+%rdi     00 00 00 00 00 00 00 00
+%r8      6c 68 39 78 11 df c3 15
+%r9      9d e4 f7 1f b1 e5 e5 ec
+%r10     6c 53 8b 82 e5 79 ca 48
+%r11     89 95 4d 3d 21 7c 87 04
+%r12     01 7c c3 56 5a a3 4f 67
+%r13     1f f0 ca fe 6e 5e 69 37
+%r14     de c4 36 32 28 7f 8a 7f
+%r15     c3 ac df 68 13 05 52 52
+
+%ymm0    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm1    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm2    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm3    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm4    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm5    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm6    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm7    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm8    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm9    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm10   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm11   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm12   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm13   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm14   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+%ymm15   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+%cf      0 
+%1       1 
+%pf      0 
+%0       0 
+%af      0 
+%0       0 
+%zf      0 
+%sf      0 
+%tf      0 
+%if      1 
+%df      0 
+%of      0 
+%iopl[0] 0 
+%iopl[1] 0 
+%nt      0 
+%0       0 
+%rf      0 
+%vm      0 
+%ac      0 
+%vif     0 
+%vip     0 
+%id      0 
+
+[ 00000007 00000000 - 00000007 00000000 ]
+[ 0 valid rows shown ]
+
+[ 00000000 00000010 - 00000000 00000000 ]
+[ 2 valid rows shown ]
+
+00000000 00000008   . . . . v v v v   00 00 00 00 eb 06 f2 a7 
+00000000 00000000   v v v v v v v v   40 bc 7d 06 c6 c0 bc f2 
+
+[ 00000000 00000000 - 00000000 00000000 ]
+[ 0 valid rows shown ]
+
+0 more segment(s)
+
+
+Running search (timeout is 100000 iterations):
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (19)     Lowest Known Correct Cost (19)     
+                                                                   
+.sort3:                         .sort3:                            
+movl (%rdi), %edx               movl (%rdi), %edx                  
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+movq 0x4(%rdi), %rax            movq 0x4(%rdi), %rax               
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+jle .L_4006df                   jle .L_4006df                      
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+movl %ecx, 0x4(%rdi)            movl %ecx, 0x4(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+movl %eax, 0x4(%rdi)            movl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+cmpl %ecx, %eax                 cmpl %ecx, %eax                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+cmovoq %rdx, %rsi               cmovoq %rdx, %rsi                  
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+cmovpl %eax, %edx               cmovpl %eax, %edx                  
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+movl %esi, %eax                 movl %esi, %eax                    
+cmpq %rax, %rdx                 cmpq %rax, %rdx                    
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (18)     Lowest Known Correct Cost (18)     
+                                                                   
+.sort3:                         .sort3:                            
+movl 0x8(%rdi), %ecx            movl 0x8(%rdi), %ecx               
+movq 0x4(%rdi), %rax            movq 0x4(%rdi), %rax               
+movl (%rdi), %edx               movl (%rdi), %edx                  
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+jle .L_4006d8                   jle .L_4006d8                      
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+jle .L_4006df                   jle .L_4006df                      
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+movl %edx, 0x8(%rdi)            movl %edx, 0x8(%rdi)               
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+orl %eax, 0x4(%rdi)             orl %eax, 0x4(%rdi)                
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+cmpl %ecx, %eax                 cmpl %ecx, %eax                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+cmovbq %rdx, %rsi               cmovbq %rdx, %rsi                  
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+xorl %eax, 0x8(%rdi)            xorl %eax, 0x8(%rdi)               
+cmovpq %rsi, %rax               cmovpq %rsi, %rax                  
+cmpw %si, %cx                   cmpw %si, %cx                      
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    10000
+Elapsed Time:                  0.0802463s
+Iterations/s:                  124616
+
+Starting cost:                 20
+Lowest cost:                   18
+Lowest correct cost:           18
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.73%       1.72%         0.06%        
+Opcode          14.32%       9.54%         5.64%        
+OpcodeWidth     14.6%        5.96%         2.6%         
+Operand         14.29%       4.37%         1.09%        
+Local Swap      14.09%       2.25%         1.21%        
+Global Swap     13.77%       5.26%         1.71%        
+Rotate          14.2%        6.2%          1.97%        
+                                                        
+Total           100%         35.3%         14.28%       
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (17)     Lowest Known Correct Cost (17)     
+                                                                   
+.sort3:                         .sort3:                            
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+movl (%rdi), %edx               movl (%rdi), %edx                  
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+cmovnzl 0x8(%rdi), %ecx         cmovnzl 0x8(%rdi), %ecx            
+jle .L_4006d8                   jle .L_4006d8                      
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+jle .L_4006df                   jle .L_4006df                      
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+xaddl %edx, 0x8(%rdi)           xaddl %edx, 0x8(%rdi)              
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+xorl %eax, 0x4(%rdi)            xorl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+cmpl %ecx, %eax                 cmpl %ecx, %eax                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+addl %eax, 0x8(%rdi)            addl %eax, 0x8(%rdi)               
+cmpl %edx, %ecx                 cmpl %edx, %ecx                    
+cmovll %edx, %eax               cmovll %edx, %eax                  
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    20000
+Elapsed Time:                  0.162165s
+Iterations/s:                  123331
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.525%      1.715%        0.06%        
+Opcode          14.405%      9.625%        5.725%       
+OpcodeWidth     14.325%      5.91%         2.74%        
+Operand         14.32%       4.33%         1.16%        
+Local Swap      14.185%      2.235%        1.035%       
+Global Swap     14.225%      5.56%         1.94%        
+Rotate          14.015%      6.215%        2.155%       
+                                                        
+Total           100%         35.59%        14.815%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    30000
+Elapsed Time:                  0.242207s
+Iterations/s:                  123861
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.3967%     1.71667%      0.0433333%     
+Opcode          14.51%       9.74%         5.87667%       
+OpcodeWidth     14.61%       5.94%         2.81667%       
+Operand         14.29%       4.1%          1.08667%       
+Local Swap      14.0167%     2.17%         1.00667%       
+Global Swap     14.16%       5.65333%      2.02333%       
+Rotate          14.0167%     6.38%         2.23667%       
+                                                          
+Total           100%         35.7%         15.09%         
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    40000
+Elapsed Time:                  0.329176s
+Iterations/s:                  121515
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.28%       1.84%         0.0675%      
+Opcode          14.5725%     9.8425%       5.835%       
+OpcodeWidth     14.595%      6.155%        3.0575%      
+Operand         14.3575%     4.175%        1.1525%      
+Local Swap      14.035%      2.29%         1.155%       
+Global Swap     14.1525%     5.4875%       1.9475%      
+Rotate          14.0075%     6.3475%       2.2325%      
+                                                        
+Total           100%         36.1375%      15.4475%     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    50000
+Elapsed Time:                  0.416602s
+Iterations/s:                  120019
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.218%      1.798%        0.066%       
+Opcode          14.548%      9.846%        5.862%       
+OpcodeWidth     14.608%      6.452%        3.362%       
+Operand         14.372%      4.252%        1.224%       
+Local Swap      14.05%       2.354%        1.262%       
+Global Swap     14.152%      5.428%        1.914%       
+Rotate          14.052%      6.344%        2.214%       
+                                                        
+Total           100%         36.474%       15.904%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    60000
+Elapsed Time:                  0.503604s
+Iterations/s:                  119141
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.3333%     1.79%         0.065%       
+Opcode          14.48%       9.775%        5.78333%     
+OpcodeWidth     14.395%      6.51667%      3.45667%     
+Operand         14.335%      4.25167%      1.225%       
+Local Swap      14.055%      2.38%         1.26%        
+Global Swap     14.25%       5.43833%      1.86%        
+Rotate          14.1517%     6.34667%      2.175%       
+                                                        
+Total           100%         36.4983%      15.825%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    70000
+Elapsed Time:                  0.592505s
+Iterations/s:                  118142
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.3471%     1.78429%      0.0585714%     
+Opcode          14.4271%     9.76571%      5.75%          
+OpcodeWidth     14.4314%     6.66%         3.59143%       
+Operand         14.33%       4.21286%      1.18857%       
+Local Swap      14.1086%     2.38571%      1.19143%       
+Global Swap     14.2143%     5.4%          1.83143%       
+Rotate          14.1414%     6.35571%      2.13857%       
+                                                          
+Total           100%         36.5643%      15.75%         
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    80000
+Elapsed Time:                  0.680719s
+Iterations/s:                  117523
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.2925%     1.77375%      0.0575%      
+Opcode          14.47%       9.7625%       5.7225%      
+OpcodeWidth     14.5425%     6.79875%      3.68%        
+Operand         14.2562%     4.1925%       1.195%       
+Local Swap      14.1337%     2.405%        1.1425%      
+Global Swap     14.235%      5.32%         1.79625%     
+Rotate          14.07%       6.255%        2.12125%     
+                                                        
+Total           100%         36.5075%      15.715%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    90000
+Elapsed Time:                  0.768641s
+Iterations/s:                  117090
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     14.3222%     1.83444%      0.0555556%     
+Opcode          14.4211%     9.7%          5.69333%       
+OpcodeWidth     14.5478%     6.86222%      3.75%          
+Operand         14.1978%     4.16778%      1.21889%       
+Local Swap      14.1322%     2.39889%      1.11333%       
+Global Swap     14.2467%     5.33444%      1.84667%       
+Rotate          14.1322%     6.28778%      2.19556%       
+                                                          
+Total           100%         36.5856%      15.8733%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    100000
+Elapsed Time:                  0.853541s
+Iterations/s:                  117159
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.354%      1.833%        0.053%       
+Opcode          14.332%      9.658%        5.715%       
+OpcodeWidth     14.535%      6.969%        3.875%       
+Operand         14.22%       4.183%        1.225%       
+Local Swap      14.232%      2.373%        1.11%        
+Global Swap     14.205%      5.284%        1.89%        
+Rotate          14.122%      6.262%        2.22%        
+                                                        
+Total           100%         36.562%       16.088%      
+
+********************************************************************************
+
+################################################################################
+
+Final update:
+
+Total search iterations:       600000
+Number of attempted searches:  6
+Total search time:             4.63572s
+Total time:                    4.69798s
+
+Statistics of last search
+
+Iterations:                    100000
+Elapsed Time:                  0.853653s
+Iterations/s:                  117144
+
+Starting cost:                 20
+Lowest cost:                   17
+Lowest correct cost:           17
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     14.354%      1.833%        0.053%       
+Opcode          14.332%      9.658%        5.715%       
+OpcodeWidth     14.535%      6.969%        3.875%       
+Operand         14.22%       4.183%        1.225%       
+Local Swap      14.232%      2.373%        1.11%        
+Global Swap     14.205%      5.284%        1.89%        
+Rotate          14.122%      6.262%        2.22%        
+                                                        
+Total           100%         36.562%       16.088%      
+
+Lowest Cost Discovered (17)     Lowest Known Correct Cost (17)     
+                                                                   
+.sort3:                         .sort3:                            
+movl 0x4(%rdi), %eax            movl 0x4(%rdi), %eax               
+movl (%rdi), %edx               movl (%rdi), %edx                  
+cmpl %eax, %edx                 cmpl %eax, %edx                    
+cmovnzl 0x8(%rdi), %ecx         cmovnzl 0x8(%rdi), %ecx            
+jle .L_4006d8                   jle .L_4006d8                      
+cmpl %ecx, %edx                 cmpl %ecx, %edx                    
+movl %eax, (%rdi)               movl %eax, (%rdi)                  
+movl %edx, 0x4(%rdi)            movl %edx, 0x4(%rdi)               
+jle .L_4006df                   jle .L_4006df                      
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+xaddl %edx, 0x8(%rdi)           xaddl %edx, 0x8(%rdi)              
+cmpl %eax, %ecx                 cmpl %eax, %ecx                    
+jge .L_4006df                   jge .L_4006df                      
+.L_4006cf:                      .L_4006cf:                         
+movq %rcx, (%rdi)               movq %rcx, (%rdi)                  
+xorl %eax, 0x4(%rdi)            xorl %eax, 0x4(%rdi)               
+retq                            retq                               
+.L_4006d8:                      .L_4006d8:                         
+cmpl %ecx, %eax                 cmpl %ecx, %eax                    
+jg .L_4006e8                    jg .L_4006e8                       
+.L_4006df:                      .L_4006df:                         
+retq                            retq                               
+.L_4006e8:                      .L_4006e8:                         
+movq %rcx, 0x4(%rdi)            movq %rcx, 0x4(%rdi)               
+addl %eax, 0x8(%rdi)            addl %eax, 0x8(%rdi)               
+cmpl %edx, %ecx                 cmpl %edx, %ecx                    
+cmovll %edx, %eax               cmovll %edx, %eax                  
+jl .L_4006cf                    jl .L_4006cf                       
+jmpq .L_4006df                  jmpq .L_4006df                     
+
+################################################################################
+
+Search terminated successfully with a verified rewrite!
