@@ -26,7 +26,7 @@ Future experiments will include
 #### Detailed Stoke Comparison
 
 **Optimizing run using symbolic tests:** 
-| Instruction Count | Time | Comment |
+| Assembly LoC | Time | Comment |
 | ----------------- | ---- | ------- |
 | 62 | 2.35s | Baseline |
 | 42 | 2.84s | | 
