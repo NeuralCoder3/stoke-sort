@@ -17,10 +17,10 @@ COMPILED=./a.out
 USED_FILES=($COMPILED bins/sort3.s $TEST_FILE)
 TESTS=5
 BENCHCOUNT=5
-OPERATION="optimize"
-SUFFIX="opt"
-# OPERATION="synthesize"
-# SUFFIX="syn"
+# OPERATION="optimize"
+# SUFFIX="opt"
+OPERATION="synthesize"
+SUFFIX="syn"
 OUTPUT_FOLDER=$FOLDER/output_$SUFFIX
 
 # ./sym/run.sh | tee -a sym/log_opt.txt
@@ -71,10 +71,13 @@ for i in $(seq 1 $TESTS); do
   WLOG=$OUTPUT_FOLDER/wlog_$i.txt
   echo "Running stoke $OPERATION"
   stoke $OPERATION --config $FOLDER/synthesize.conf --out $RESULT --testcases $TEST_FILE > $LOG 2> $WLOG
+#   SCMD=stoke $OPERATION --config $FOLDER/synthesize.conf --out $RESULT --testcases $TEST_FILE > $LOG 2> $WLOG
+#   TIME=$(/usr/bin/time -f "%e" "$SCMD")
   if [ ! -f "$RESULT" ]; then
       echo "stoke $OPERATION failed"
       continue
   fi
+#   echo "stoke time: $TIME"
   LOC=$(wc -l < $RESULT)
   echo "Optimized to $LOC lines"
   cp $COMPILED $OUTPUT

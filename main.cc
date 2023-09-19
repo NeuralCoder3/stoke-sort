@@ -1,17 +1,3 @@
-// Copyright 2013-2016 Stanford University
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 #include <cstdlib>
 #include <stddef.h>
 #include <stdint.h>
@@ -21,24 +7,36 @@
 using namespace std;
 
 extern "C" void sort3(int *buffer) {
-  // sort 3 elements
-  int tmp;
-  if (buffer[0] > buffer[1]) {
-    tmp = buffer[0];
-    buffer[0] = buffer[1];
-    buffer[1] = tmp;
-  }
-  if (buffer[1] > buffer[2]) {
-    tmp = buffer[1];
-    buffer[1] = buffer[2];
-    buffer[2] = tmp;
-  }
-  if (buffer[0] > buffer[1]) {
-    tmp = buffer[0];
-    buffer[0] = buffer[1];
-    buffer[1] = tmp;
-  }
+  int a = buffer[0];
+  int b = buffer[1];
+  int c = buffer[2];
+  int x = a>b;
+  int y = a>c;
+  int z = b>c;
+  buffer[x+y]=a;
+  buffer[1-x+z]=b;
+  buffer[2-y-z]=c;
 }
+
+// extern "C" void sort3(int *buffer) {
+//   // sort 3 elements
+//   int tmp;
+//   if (buffer[0] > buffer[1]) {
+//     tmp = buffer[0];
+//     buffer[0] = buffer[1];
+//     buffer[1] = tmp;
+//   }
+//   if (buffer[1] > buffer[2]) {
+//     tmp = buffer[1];
+//     buffer[1] = buffer[2];
+//     buffer[2] = tmp;
+//   }
+//   if (buffer[0] > buffer[1]) {
+//     tmp = buffer[0];
+//     buffer[0] = buffer[1];
+//     buffer[1] = tmp;
+//   }
+// }
 
 int main(int argc, char **argv) {
   const auto itr = atoi(argv[1]);
